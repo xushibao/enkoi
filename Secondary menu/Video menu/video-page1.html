@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../../js/jquery.js"></script>
+    <script type="text/javascript" src="../../js/artTemplate.js"></script>
+    <script type="text/javascript" src="../../js/jquery.mobile-1.4.5.js"></script>
+</head>
+<body>
+<div id="aa"></div>
+</body>
+<script id="video-pag1" type="text/html">
+    <li>
+        <img src="http://pic.ecook.cn/web/{{get}}">
+    </li>
+</script>
+<script>
+    $.ajax({
+        url:"http://pic.ecook.cn",
+        method:'get',
+        success:function (data) {
+            $.each(data,function (i,data) {
+                var $li=$(template("video-pag1", data)).appendTo("#aa");
+                var $elem;
+                $('#aa').listview('refresh');
+            })
+        }
+    })
+</script>
+</html>

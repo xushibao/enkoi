@@ -1,0 +1,315 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #666;
+    font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+header{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background: no-repeat top center;
+}
+.cover{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    background: rgba(0,0,0,0.20);
+}
+.cover nav{
+    height: 46px;
+    margin-top: 10px;
+    vertical-align: middle;
+    z-index: 99;
+}
+.cover nav .nav-logo{
+    float: left;
+    height: 46px;
+    margin-left:60px;
+}
+.cover nav .nav-logo img{
+    height: 100%;
+}
+.cover nav .nav-btn-list{
+    color:#fff;
+    float: right;
+    margin-right: 60px;
+    height: 46px;
+    vertical-align: text-bottom;
+}
+.nav-btn-list a{
+    color: #fff;
+    font-size: 14px;
+    padding: 0 20px;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    border:1px solid #fff;
+    margin: 10px 0 0 18px;
+    text-decoration: none;
+}
+.sl-header{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: rgba(0,0,0,0.66);
+}
+.search-bar{
+    box-sizing: border-box;
+    display: -webkit-box;
+    height: 40px;
+    width: 40%;
+    min-width: 600px;
+    margin: 20px auto;
+}
+.search-outer{
+    display:-webkit-box;
+    -webkit-box-flex:1;
+    position: relative;
+    background: #f4f4f4;
+    height: 100%;
+}
+.search-inner{
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    height:100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index:1;
+}
+.search-logo{
+    font-size: 20px;
+    color: #b2b2b2;
+    position:absolute;
+    left: 10px;
+    top:-1px;
+    line-height: 40px;
+}
+.search-input{
+    width:100%;
+    order: 0;
+    font-size: 16px;
+    -webkit-box-sizing:content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    background: transparent;
+    height: 100%;
+    border:none !important;
+    text-indent: 5px;
+    outline:medium;
+}
+.icon_clear{
+    position: absolute !important;
+    right: 10px !important;
+    line-height: 40px;
+    top:0
+}
+.search_serch{
+    line-height: 40px;
+    color:#fff;
+    font-size: 16px;
+    display: block;
+    width: 80px;
+    text-align: center;
+    background: #ffd000;
+}
+.content-box{
+    width: 1064px;
+    margin: 0 auto;
+    height: 915px;
+}
+.content-box h3{
+    text-align: center;
+    margin: 30px 0;
+}
+.swipe{
+    width: 498px;
+    height: 340px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    background: url("http://home.ecook.cn/resources/images/puff.svg") center #34495E no-repeat;
+}
+.slider span{
+    background: rgba(0,0,0,0.55);
+    position: absolute;
+    top: 0;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    width: 100%;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 0 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.box-list{
+    position: relative;
+    float: left;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+.sw{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.swipev{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.caipu{
+    width: 566px;
+    height: 340px;
+    float: right;
+}
+.caipu-list{
+    margin-left: 38px;
+    width: 244px;
+    height: 154px;
+    overflow: hidden;
+    float: left;
+}
+.caipu-list-liTwo{
+    margin-top: 32px;
+}
+.caidan{
+    position: relative;
+    height: 438px;
+    top:372px;
+    margin-top:32px;
+}
+.caipu-list-li1{
+    position: absolute;
+    top:0;
+    left: 0;
+    margin-left: 0;
+}
+.caipu-list-li2{
+    height: 230px;
+    position: absolute;
+    top:186px;
+    left: 0;
+    margin-left: 0;
+}
+.caipu-list-li3{
+    position: absolute;
+    top:0;
+    right: 0;
+    margin-left: 0;
+}
+.caipu-list-li4{
+    height: 230px;
+    position: absolute;
+    top:186px;
+    right: 0;
+    margin-left: 0;
+}
+.caipu-list-li5{
+    width: 496px;
+    height: 418px;
+    position: absolute;
+    left:283px;
+    margin-left: 0;
+    top:0;
+}
+.text{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.bottom_text {
+    position: absolute;
+    bottom: 4px;
+    right: 6px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+}
+.footer{
+    padding: 20px 0;
+    background: rgba(0,0,0,1);
+    position: relative;
+    min-width: 1064px;
+    height: 200px;
+}
+.footer-middle{
+    width: 1064px;
+    margin: 0 auto;
+    height: 100%;
+    display: block;
+}
+.footer-left{
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+.footer-left img{
+    width:205px;
+    height: 95px;
+}
+.footer-left p{
+    color: rgba(217,215,215,1.00);
+    line-height: 40px
+}
+.footer-left span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffba13;
+    padding: 0 6px 0 0;
+}
+.footer-right{
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    float: right;
+}
+.footer-right p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffba13;
+    padding: 0 6px 0 0;
+    line-height: 30px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.footer-right p img {
+    margin-right:60px;
+    width: 108px;
+    height: 127px;
+}
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: #ccc;
+    position: absolute;
+    bottom: 0;
+}
+.copyright p {
+    color: #666;
+}
+.bottom-links {
+    line-height: 1.5;
+    padding-bottom: 8px;
+    color: #000;
+}
+.copyright .bottom-links a {
+    color: #fff;
+    padding: 0 4px;
+}
